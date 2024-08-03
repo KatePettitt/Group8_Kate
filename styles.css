@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    font-family: 'Playfair Display';
+    height: 100%;
+    color: #fff;
+    background: linear-gradient(to top
+   , #80B192, #FFF4EC);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .coming-soon-container {
+    text-align: center;
+    padding: 20px;
+    max-width: 500px;
+  }
+  
+  .content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  h1 {
+      font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2em;
+    margin-bottom:40px;
+  }
+  
+  #countdown {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom:40px;
+  }
+  
+  #countdown div {
+    text-align: center;
+  }
+  
+  #countdown span {
+    font-size: 2em;
+    display: block;
+  }
+  
+  #countdown div {
+    font-size: 1em;
+  }
+  
+  home-link {
+    margin-top: 40px;
+  }
+  
+  .home-link a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1em;
+    border: 2px solid #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .home-link a:hover {
+    background-color: #FFF4EC;
+    color: #4E5942;
+  }
+  

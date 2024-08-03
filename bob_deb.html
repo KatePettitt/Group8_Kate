@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guinea Pig Fact File</title>
+    <link rel="stylesheet" href="stylebd.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+ 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&family=Yantramanav:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" >Our Pets</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="comingsoon.html">Quiz</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Pets
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Allison's Pet</a></li>
+            <li><a class="dropdown-item" href="#">Arthi's Cat</a></li>
+            <li><a class="dropdown-item" href="#">Bea's Pet</a></li>
+            <li><a class="dropdown-item" href="#">Jane's Pet</a></li>
+            <li><a class="dropdown-item" href="bob_deb.html">Kate's Guinea Pigs</a></li>
+          </ul>
+        </li>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <header class="bg-forest text-light text-center py-3">
+        <h1>Bob and Deb's Fact File</h1>
+    </header>
+    <main class="container my-5">
+        <section class="bg-dark-brown mb-5">
+            <h2 class="text-light-green text-center">Introduction</h2>
+            <p class="text-light">We rehomed Bob and Deb during the COVID 2020 pandemic. When we adopted them they were called 'Rita and Blondie' but we preferred Bob and Deb.  </p>
+        </section>
+        <section class="bg-forest mb-5">
+            <h2 class="text-cream text-center">Behavior</h2>
+            <p class="text-cream">Guinea pigs are such friendly creatures and make the best house pets. They love food and let you know when it's breakfast snack and dinner time and love to snuggle on the sofa with you. Especially if you have a fleece blanket they can curl up in.  </p>
+        </section>
+        <section class="bg-dark-brown mb-5">
+            <h2 class="text-light-green text-center">Diet</h2>
+            <p class="text-light">As much food as they can stomach! Salad and vegetables as well as dry food such as hay and guinea pig biscuits. But a run around in the grass with a few dandelions will get them weeeeeking the loudest! </p>
+        </section>
+        <section class="bg-olive mb-5">
+            <h2 class="text-cream text-center">Fun Fact</h2>
+            <p class="text-cream"> - They were very particular about their veg and would turn their noses up at anything that was slightly past its best. <p>
+        </section>
+        <section class="gallery mb-5">
+            <h2 class="text-center text-light-green">Photo Gallery</h2>
+            <div id="photoCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#photoCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#photoCarousel" data-slide-to="1"></li>
+                    <li data-target="#photoCarousel" data-slide-to="2"></li>
+                    <li data-target="#photoCarousel" data-slide-to="3"></li>
+                    <li data-target="#photoCarousel" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="bob1.jpg" class="d-block w-100" alt="Bob: all black guinea pig with one white foot">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="deb1.jpg" class="d-block w-100" alt="Deb: black and blonde corse haired guinea pig">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="bobanddeb2.jpg" class="d-block w-100" alt="2 Guinea Pigs decorated with hay">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="bobanddeb3.jpg" class="d-block w-100" alt="2 Guines Pigs asleep">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="bobanddeb4.jpg" class="d-block w-100" alt="Guinea pigs on their hay box - More food please!">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#photoCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#photoCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer class="text-center mt-4">
+      <p>&copy; 2024 Group8. All rights reserved.</p>
+  </footer>
+    <script src="scriptbd.js"></script>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

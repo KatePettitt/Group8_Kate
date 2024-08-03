@@ -1,0 +1,109 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&family=Yantramanav:wght@400;700&display=swap');
+
+/* General Styles */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #4E5942;
+    color: #FFF4EC;
+}
+
+main {
+    flex: 1;
+}
+
+/* Navbar Styles */
+
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: #682044;
+}
+
+.navbar-nav .nav-link:hover, .navbar-nav .nav-link.active {
+    color: #80B192;
+}
+
+.dropdown-item {
+   color:#4E5942
+}
+
+/* Additional custom styles */
+.navbar-nav .form-control {
+  margin-left: 15px;
+}
+
+.navbar-nav .btn {
+  margin-left: 5px;
+}
+
+/* Header Styles */
+h1 {
+    font-family: 'Playfair Display', serif;
+    color: #34623F;
+}
+
+/* Main Content Styles */
+.main {
+    font-family: 'Yantramanav', sans-serif;
+    padding: 20px;
+    background-color: #FFF4EC;
+    color: #4E5942;
+    position: center;
+    margin-bottom: 40px;
+}
+
+/* Carousel Styles */
+.carousel-caption h5 {
+    font-family: 'Playfair Display', serif;
+    color: #FFF4EC;
+}
+
+.carousel-caption p {
+    font-family: 'Roboto', sans-serif;
+    color: #FFF4EC;
+}
+
+.carousel-item img {
+    filter: brightness(70%);
+    margin-bottom: 0px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #4E5942;
+    color: #FFF4EC;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    flex-shrink: 0;
+}
+
+footer p {
+    margin: 0;
+    font-family: 'Roboto', sans-serif; 
+
+}
+
+/* Custom Button Styles */
+.btn-outline-success {
+    color: #34623F;
+    border-color: #34623F;
+}
+
+.btn-outline-success:hover {
+    background-color: #34623F;
+    color: #FFF4EC;
+}
+
